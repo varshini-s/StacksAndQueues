@@ -17,6 +17,13 @@ public class StackMain
 		stack.push(thirdNode);
 		System.out.println("element at top :"+stack.peek().getKey());
 		stack.printStack();
+		
+		while(stack.isEmpty()==false)
+		{
+			System.out.println("peek: "+stack.peek().getKey());
+			stack.pop();
+			
+		}
 	}
 
 }
