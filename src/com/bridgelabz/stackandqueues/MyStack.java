@@ -28,4 +28,9 @@ public class MyStack<K>
 		return myLinkedList.head;
 	}
 	
+	public INodeIF<K> pop()
+	{
+		return myLinkedList.pop();
+	}
+	
 }
