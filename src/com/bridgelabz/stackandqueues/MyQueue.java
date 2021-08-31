@@ -33,4 +33,9 @@ public class MyQueue<K>
 	{
 		return myLinkedList.isEmpty();
 	}
+	
+	public int size() 
+	{
+		return myLinkedList.size();
+	}
 }
