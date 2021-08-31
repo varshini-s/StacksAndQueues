@@ -33,4 +33,14 @@ public class MyStack<K>
 		return myLinkedList.pop();
 	}
 	
+	public boolean isEmpty()
+	{
+		return myLinkedList.isEmpty();
+	}
+	
+	public int size()
+	{
+		return myLinkedList.size();
+	}
+	
 }
