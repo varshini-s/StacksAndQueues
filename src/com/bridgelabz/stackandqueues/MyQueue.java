@@ -18,5 +18,9 @@ public class MyQueue<K>
 		
 	}
 	
+	public void printQueue()
+	{
+		myLinkedList.printMyNodes();
+	}
 	
 }
