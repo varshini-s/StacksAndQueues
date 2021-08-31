@@ -23,6 +23,9 @@ public class MyStack<K>
 		myLinkedList.printMyNodes();
 	}
 	
-	
+	public INodeIF<K> peek()
+	{
+		return myLinkedList.head;
+	}
 	
 }
