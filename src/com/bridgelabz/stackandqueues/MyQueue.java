@@ -23,4 +23,10 @@ public class MyQueue<K>
 		myLinkedList.printMyNodes();
 	}
 	
+	public INodeIF<K> dequeue()
+	{
+		
+		return myLinkedList.pop();
+	}
+	
 }
