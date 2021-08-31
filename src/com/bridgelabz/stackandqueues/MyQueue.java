@@ -29,4 +29,8 @@ public class MyQueue<K>
 		return myLinkedList.pop();
 	}
 	
+	public boolean isEmpty()
+	{
+		return myLinkedList.isEmpty();
+	}
 }
