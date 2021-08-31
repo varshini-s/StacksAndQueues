@@ -18,6 +18,11 @@ public class MyStack<K>
 		
 	}
 	
+	public void printStack()
+	{
+		myLinkedList.printMyNodes();
+	}
+	
 	
 	
 }
