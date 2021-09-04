@@ -30,7 +30,7 @@ public class MyStack<K>
 	
 	public INodeIF<K> pop()
 	{
-		return myLinkedList.pop();
+		return myLinkedList.popLast();
 	}
 	
 	public boolean isEmpty()
@@ -41,6 +41,11 @@ public class MyStack<K>
 	public int size()
 	{
 		return myLinkedList.size();
+	}
+	public String toString()
+	{
+		return myLinkedList.toString();
+		
 	}
 	
 }
