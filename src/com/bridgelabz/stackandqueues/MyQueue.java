@@ -38,4 +38,9 @@ public class MyQueue<K>
 	{
 		return myLinkedList.size();
 	}
+	public String toString()
+	{
+		return myLinkedList.toString();
+		
+	}
 }
